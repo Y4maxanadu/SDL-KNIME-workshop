@@ -23,19 +23,27 @@ Represent the item in interaction graph.
 QUICK START WITH KNIME WORKFLOW
 
 1. Download the data processing and visualizing workflow on KNIME Community HUB
+
 KNIME Workflow link: [https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/](https://hub.knime.com/-/spaces/-/~kpqGBQUdAJMmXMyU/current-state/)
 2. Import the workflow to your local repository
+
 KNIME Analytics Platform -> File -> Import KNIME Workflow -> Select File
+
 Select file that end with .kmwf
 3.  Load data to the workflow
+
 CSV reader node can load the data from csv file, we use to CSV reader node to load user-rating data and a targeted user's social network relationship.
+
 For user-rating data, we initialzed those highly rated checkin place as a pair <user_id , item_id> and there are also the geospatial information about it.(Such as latitude and longitude)
+
 For user social network relationship, we seperate the target user's social relationship into three degree, which represent one-hop neighbor, two-hop neighbor and three-hop neighbor respectively. One-hop neighbor may be the target user's close and direct friend and family members, they have direct relationship and contact in social network. Two-hop neighbor means a person(user on the social network) who is indirectively connected with the target user. This might be a friend of friend and so on. So there goes the three-hop neighbor. We want these three kind of user contributes different weight on effecting the target user recommendation basis.
+
 o1.csv is the data source of User Checkin node(User-rating data)
+
 e2.csv is the data source of User Neighborhood Distance Count node(Target user's social network relationship data)
 4. Execute the workflow and present
-Right click the Geospatial View Node 'View 0' -> Execute and Open view
 
+Right click the Geospatial View Node 'View 0' -> Execute and Open view
 ![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
 
 EXPECTED RESULT
