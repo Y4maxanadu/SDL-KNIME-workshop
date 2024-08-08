@@ -25,11 +25,13 @@ QUICK START WITH KNIME WORKFLOW
 1. Download the data processing and visualizing workflow on KNIME Community HUB
 
 KNIME Workflow link: [https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/](https://hub.knime.com/-/spaces/-/~kpqGBQUdAJMmXMyU/current-state/)
+
 2. Import the workflow to your local repository
 
 KNIME Analytics Platform -> File -> Import KNIME Workflow -> Select File
 
 Select file that end with .kmwf
+
 3.  Load data to the workflow
 
 CSV reader node can load the data from csv file, we use to CSV reader node to load user-rating data and a targeted user's social network relationship.
@@ -41,9 +43,11 @@ For user social network relationship, we seperate the target user's social relat
 o1.csv is the data source of User Checkin node(User-rating data)
 
 e2.csv is the data source of User Neighborhood Distance Count node(Target user's social network relationship data)
+
 4. Execute the workflow and present
 
 Right click the Geospatial View Node 'View 0' -> Execute and Open view
+
 ![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
 
 EXPECTED RESULT
