@@ -23,7 +23,7 @@ Represent the item in interaction graph.
 QUICK START WITH KNIME WORKFLOW
 
 1. Download the data processing and visualizing workflow on KNIME Community HUB
-KNIME Workflow link: https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/
+KNIME Workflow link: [https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/](https://hub.knime.com/-/spaces/-/~kpqGBQUdAJMmXMyU/current-state/)
 2. Import the workflow to your local repository
 KNIME Analytics Platform -> File -> Import KNIME Workflow -> Select File
 Select file that end with .kmwf
