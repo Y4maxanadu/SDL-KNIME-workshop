@@ -13,8 +13,11 @@ WORKFLOW DEMO
 ![image](https://github.com/user-attachments/assets/5b127652-d312-432e-aee8-a2b16bcb477b)
 
 Recommending Dataset Gowalla.
+
 Contains users social networks and check-in status geographical data().
+
 Latitude and Longitude of all the check-in point.
+
 Represent the item in interaction graph.
 
 QUICK START WITH KNIME WORKFLOW
