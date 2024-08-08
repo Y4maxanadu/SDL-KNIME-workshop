@@ -43,7 +43,10 @@ EXPECTED RESULT
 In this part, we will try to demonstrate our recommending works on Geo-data-based dataset by KNIME and try to implement the visualization of the recommending. By utilized the techniques in deep learning and GIS and also the assistance of the KNIME workflow platform, we are expected to accomplish the following work.
 
 (1) Recommendation based on user preference and geographical social relationships.
+
 (2) Visualization of the recommending result by KNIME platform.
+
 (3) Interpretable recommending based on geographical information.
+
 (4) Comparison between the traditional recommendation method and the novel algorithm in specific datasets(Yelp and Gowalla). Achieving better recommending accuracy and ranking scores.
 
