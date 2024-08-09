@@ -1,4 +1,4 @@
-# SDL-KNIME-workshop
+![image](https://github.com/user-attachments/assets/cc8c7315-5343-4000-ad24-f97d37ce60c0)# SDL-KNIME-workshop
 
 for SDL internship and related work with KNIME
 
@@ -56,8 +56,10 @@ https://www.kaggle.com/datasets/bqlearner/gowalla-checkins
 
 Gowalla was a location-based social networking platform that allowed users to share their check-ins and experiences at different places. Users could check-in at various locations, including restaurants, parks, landmarks, and more, and share their activities with their friends and followers. 
 
-### Literature Review
-*To be completed.*
+## Research Workflow
+
+![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
+
 ## Brief to the Workflow Demo 
 The feature photo is below.
 ![image](https://github.com/user-attachments/assets/5b127652-d312-432e-aee8-a2b16bcb477b)
@@ -98,7 +100,22 @@ e2.csv is the data source of User Neighborhood Distance Count node(Target user's
 
 Right click the Geospatial View Node 'View 0' -> Execute and Open view
 
-![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
+## Visualization
+
+After combining and concatenating tables mentioned above, we are able to acheive the figure below. It is a demonstration of three degree of user's preference according to their logical distance relationship with a specific user(target user).
+
+Three colors represent the preference of three kind of people based on social network distance
+
+Dark->one-hop neighbor
+
+Violet->two-hop neighbor
+
+Yellow->three-hop neighbor
+
+These three kind of neighbor of a specific user's preference (target user)will contribute different weight to the recommendation. Which their result will effect the weights and biases in the attentional score in the GCN model.(Graph Convolutional Neural Network)
+
+![image](https://github.com/user-attachments/assets/0b1689ff-e647-4edb-bc10-c1791c816ec6)
+
 
 ## Expected Result
 
