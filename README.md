@@ -1,14 +1,16 @@
-SDL-KNIME-workshop
+# SDL-KNIME-workshop
 
 for SDL internship and related work with KNIME
 
-RESEARCH BACKGROUND
+## Research Background
 
-The purpose of this research is to explore the analysis of geographic information in datasets used for recommendation systems(mainly on Gowalla). Specifically, we aim to investigate how the inclusion of geographic data,  processed and visualized through the KNIME workflow platform, can enhance the interpretability of recommendations and reveal underlying patterns within these platforms beside enhancing the accuracy and effectiveness. The significance of this research lies in its potential to improve the transparency and explainability of recommendation systems, enabling users to better understand the reasoning behind the recommendations and uncover interesting trends and insights.
-
-In our previous research, we had already implemented the recommendation algorithm based on GCN(Graph convolutional neural networks) collaborative filtering and made modified to it in order to preform better on small-scaled datasets. In this Spatial Data Lab internships program, we are introduced with the advanced workflow data analytic platform - KNIME. Prior academic endeavors had already made some practical progress in combining geographical data with recommendation algorithms, however, there is still a need of analyzing the combination of geographical information with advanced recommendation algorithm based on GCN. This research will focus on this topic and utilize practical analytic skills with KNIME platform.
-
-WORKFLOW DEMO
+### Research Proposal
+The purpose of this research is to explore the analysis of **geographic information in datasets used for recommendation systems**(mainly on Gowalla). Specifically, we aim to investigate how the inclusion of geographic data,  processed and visualized through the KNIME workflow platform, can enhance the interpretability of recommendations and reveal underlying patterns within these platforms beside **enhancing the accuracy and effectiveness**. The significance of this research lies in its potential to improve the transparency and explainability of recommendation systems, enabling users to better understand the reasoning behind the recommendations and uncover interesting trends and insights.
+### Previous Research
+In our previous research, we had already implemented the recommendation algorithm based on **GCN**(Graph convolutional neural networks) collaborative filtering and made modified to it in order to preform better on small-scaled datasets. In this Spatial Data Lab internships program, we are introduced with the advanced workflow data analytic platform - KNIME. Prior academic endeavors had already made some practical progress in **combining geographical data with recommendation algorithms**, however, there is still a need of analyzing the combination of geographical information with advanced recommendation algorithm based on GCN. This research will focus on this topic and utilize practical analytic skills with KNIME platform.
+### Literature Review
+To be completed
+## Brief to the Workflow Demo 
 
 ![image](https://github.com/user-attachments/assets/5b127652-d312-432e-aee8-a2b16bcb477b)
 
@@ -20,19 +22,19 @@ Latitude and Longitude of all the check-in point.
 
 Represent the item in interaction graph.
 
-QUICK START WITH KNIME WORKFLOW
+## Quick Start with this KNIME Workflow
 
-1. Download the data processing and visualizing workflow on KNIME Community HUB
+### 1. Download the data processing and visualizing workflow on KNIME Community HUB
 
 KNIME Workflow link: [https://hub.knime.com/-/spaces/-/~IhGFsKkfL8H5jkZE/current-state/](https://hub.knime.com/-/spaces/-/~kpqGBQUdAJMmXMyU/current-state/)
 
-2. Import the workflow to your local repository
+### 2. Import the workflow to your local repository
 
 KNIME Analytics Platform -> File -> Import KNIME Workflow -> Select File
 
 Select file that end with .kmwf
 
-3.  Load data to the workflow
+### 3.  Load data to the workflow
 
 CSV reader node can load the data from csv file, we use to CSV reader node to load user-rating data and a targeted user's social network relationship.
 
@@ -44,21 +46,21 @@ o1.csv is the data source of User Checkin node(User-rating data)
 
 e2.csv is the data source of User Neighborhood Distance Count node(Target user's social network relationship data)
 
-4. Execute the workflow and present
+### 4. Execute the workflow and present
 
 Right click the Geospatial View Node 'View 0' -> Execute and Open view
 
 ![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
 
-EXPECTED RESULT
+## Expected Result
 
 In this part, we will try to demonstrate our recommending works on Geo-data-based dataset by KNIME and try to implement the visualization of the recommending. By utilized the techniques in deep learning and GIS and also the assistance of the KNIME workflow platform, we are expected to accomplish the following work.
 
-(1) Recommendation based on user preference and geographical social relationships.
+### 1. Recommendation based on user preference and geographical social relationships.
 
-(2) Visualization of the recommending result by KNIME platform.
+### 2. Visualization of the recommending result by KNIME platform.
 
-(3) Interpretable recommending based on geographical information.
+### 3. Interpretable recommending based on geographical information.
 
-(4) Comparison between the traditional recommendation method and the novel algorithm in specific datasets(Yelp and Gowalla). Achieving better recommending accuracy and ranking scores.
+### 4. Comparison between the traditional recommendation method and the novel algorithm in specific datasets(Yelp and Gowalla). Achieving better recommending accuracy and ranking scores.
 
