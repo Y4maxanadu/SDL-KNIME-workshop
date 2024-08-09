@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cc8c7315-5343-4000-ad24-f97d37ce60c0)# SDL-KNIME-workshop
+# SDL-KNIME-workshop
 
 for SDL internship and related work with KNIME
 
