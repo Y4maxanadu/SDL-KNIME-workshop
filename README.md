@@ -8,10 +8,58 @@ for SDL internship and related work with KNIME
 The purpose of this research is to explore the analysis of **geographic information in datasets used for recommendation systems**(mainly on Gowalla). Specifically, we aim to investigate how the inclusion of geographic data,  processed and visualized through the KNIME workflow platform, can enhance the interpretability of recommendations and reveal underlying patterns within these platforms beside **enhancing the accuracy and effectiveness**. The significance of this research lies in its potential to improve the transparency and explainability of recommendation systems, enabling users to better understand the reasoning behind the recommendations and uncover interesting trends and insights.
 ### Previous Research
 In our previous research, we had already implemented the recommendation algorithm based on **GCN**(Graph convolutional neural networks) collaborative filtering and made modified to it in order to preform better on small-scaled datasets. In this Spatial Data Lab internships program, we are introduced with the advanced workflow data analytic platform - KNIME. Prior academic endeavors had already made some practical progress in **combining geographical data with recommendation algorithms**, however, there is still a need of analyzing the combination of geographical information with advanced recommendation algorithm based on GCN. This research will focus on this topic and utilize practical analytic skills with KNIME platform.
-### Literature Review
-To be completed
-## Brief to the Workflow Demo 
 
+### Brief to GCN
+
+1. Social Network and Recommender System
+
+2. User Preference
+
+3. Distance Calculate: steps/hops
+
+4. Implicit relationship
+
+
+![image](https://github.com/user-attachments/assets/c1c5f560-c1a8-4349-96a7-9c4c8f52bfc5)
+
+The Matrix form of User item Interaction
+
+![image](https://github.com/user-attachments/assets/05e0f3ae-84d3-4d71-9d28-411645b92467)
+
+1. Feature Aggregation:Collecting Neighbor Nodes Features to Current Node
+
+2. Weight Calculating: Setting the Nodes’ Weight according to the Graph Structure Using Symmetrically Normalized Laplacian Matrix
+
+3. Feature Transformation: The aggregated features are inputted into neural network layers for linear transformation, generating new node embeddings.
+
+4. Nonlinear Activation: Nonlinear activation functions are applied to capture complex graph structure information.
+
+![image](https://github.com/user-attachments/assets/c3202d9b-1a0f-4d01-8183-8a30bf11efca)
+
+1. Input
+
+Processing the interaction between users and items' ratings as an undirected connected graph
+
+Initializing embedding of users and items
+
+2. Message Passing Layer(Embedding Propagation)
+
+GCN layer
+
+3. Prediction and Output
+
+Collect final embedding of user and item Vector Product
+
+## Dataset
+Gowalla:
+https://www.kaggle.com/datasets/bqlearner/gowalla-checkins
+
+Gowalla was a location-based social networking platform that allowed users to share their check-ins and experiences at different places. Users could check-in at various locations, including restaurants, parks, landmarks, and more, and share their activities with their friends and followers. 
+
+### Literature Review
+*To be completed.*
+## Brief to the Workflow Demo 
+The feature photo is below.
 ![image](https://github.com/user-attachments/assets/5b127652-d312-432e-aee8-a2b16bcb477b)
 
 Recommending Dataset Gowalla.
@@ -22,7 +70,7 @@ Latitude and Longitude of all the check-in point.
 
 Represent the item in interaction graph.
 
-## Quick Start with this KNIME Workflow
+## Quick Start with this KNIME Workflow (Replicating Workflow)
 
 ### 1. Download the data processing and visualizing workflow on KNIME Community HUB
 
@@ -63,4 +111,11 @@ In this part, we will try to demonstrate our recommending works on Geo-data-base
 ### 3. Interpretable recommending based on geographical information.
 
 ### 4. Comparison between the traditional recommendation method and the novel algorithm in specific datasets(Yelp and Gowalla). Achieving better recommending accuracy and ranking scores.
+
+## Literature Review
+*To be completed.*
+
+## Citations
+LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation.SIGIR '20: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval
+Pages 639 - 648
 
