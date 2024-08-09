@@ -113,6 +113,7 @@ Violet->two-hop neighbor
 Yellow->three-hop neighbor
 
 These three kind of neighbor of a specific user's preference (target user)will contribute different weight to the recommendation. Which their result will effect the weights and biases in the attentional score in the GCN model.(Graph Convolutional Neural Network)
+![image](https://github.com/user-attachments/assets/c8ea4d9e-301c-4dd2-884e-80b669159846)
 
 ![image](https://github.com/user-attachments/assets/0b1689ff-e647-4edb-bc10-c1791c816ec6)
 
