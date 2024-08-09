@@ -2,6 +2,10 @@
 
 for SDL internship and related work with KNIME
 
+## Research Workflow
+
+![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
+
 ## Research Background
 
 ### Research Proposal
@@ -55,10 +59,6 @@ Gowalla:
 https://www.kaggle.com/datasets/bqlearner/gowalla-checkins
 
 Gowalla was a location-based social networking platform that allowed users to share their check-ins and experiences at different places. Users could check-in at various locations, including restaurants, parks, landmarks, and more, and share their activities with their friends and followers. 
-
-## Research Workflow
-
-![image](https://github.com/user-attachments/assets/2ffc0a80-0938-49ba-ac03-007105f7d4e1)
 
 ## Brief to the Workflow Demo 
 The feature photo is below.
@@ -114,9 +114,6 @@ Yellow->three-hop neighbor
 
 These three kind of neighbor of a specific user's preference (target user)will contribute different weight to the recommendation. Which their result will effect the weights and biases in the attentional score in the GCN model.(Graph Convolutional Neural Network)
 ![image](https://github.com/user-attachments/assets/c8ea4d9e-301c-4dd2-884e-80b669159846)
-
-![image](https://github.com/user-attachments/assets/0b1689ff-e647-4edb-bc10-c1791c816ec6)
-
 
 ## Expected Result
 
